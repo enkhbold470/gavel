@@ -8,7 +8,7 @@ click
 click-didyoumean
 click-plugins
 click-repl
-Flask>=2.0.0
+Flask
 Flask-Assets
 Flask-SQLAlchemy
 greenlet
@@ -20,7 +20,7 @@ itsdangerous
 Jinja2
 kombu
 Markdown
-MarkupSafe>=2.0.0
+MarkupSafe
 numpy
 prompt-toolkit
 psycopg2
