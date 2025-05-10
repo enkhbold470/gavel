@@ -20,7 +20,7 @@ itsdangerous
 Jinja2
 kombu
 Markdown
-MarkupSafe
+MarkupSafe>=2.0.0
 numpy
 prompt-toolkit
 psycopg2
