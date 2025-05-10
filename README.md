@@ -144,6 +144,21 @@ quality (Mu).
 Interested in hacking on Gavel? Awesome. See [DEVELOPMENT.md][development] for
 a dev setup guide.
 
+## Development Setup with uv and pnpm
+
+### Python Environment Setup
+1. Install uv: `pip install uv`
+2. Create a virtual environment: `uv venv`
+3. Activate the virtual environment:
+   - Windows: `.venv\Scripts\activate`
+   - macOS/Linux: `source .venv/bin/activate`
+4. Install dependencies: `uv pip install -r requirements.txt`
+
+### JavaScript/Frontend Setup
+1. Install pnpm: `npm install -g pnpm`
+2. Install frontend dependencies: `pnpm install`
+3. Build frontend assets: `pnpm run build`
+
 ## Notes
 
 If you do end up using this for your competition or hackathon, I would love to
